@@ -1,0 +1,72 @@
+﻿@model Employee
+
+<div class="container shadow p-5">
+    <div class="row pb-2">
+        <h2>Delete Employee</h2>
+    </div>
+
+    <form method="post" asp-action="DeleteEmp">
+        <input asp-for="Id" hidden />
+        <div asp-validation-summary="All"></div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="Name">Employee Name</label>
+                <input type="text" class="form-control mb-3" asp-for="Name" disabled>
+                <span asp-validation-for="Name" class=" alert-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Designation">Designation</label>
+                <select asp-for="Designation" class="form-select" asp-items="@Html.GetEnumSelectList<Employee.DesignationList>()" disabled></select>
+                <span asp-validation-for="Designation" class=" alert-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Gender">Gender</label><br>
+                <input type="radio" asp-for="Gender" value="Male" disabled>
+                <label asp-for="Gender" class="form-check-label">Male</label>
+                <input type="radio" asp-for="Gender" value="Female" disabled>
+                <label asp-for="Gender" class="form-check-label">Female</label>
+                <span asp-validation-for="Gender" class="alert-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Dotnet">Skills</label><br>
+                @Html.CheckBox("Dotnet", new { @disabled = "disabled"})
+                <label asp-for="Dotnet" class="checkbox-inline"> Dotnet </label>
+                @Html.CheckBox("CSharp", new { @disabled = "disabled"})
+                <label asp-for="CSharp" class="checkbox-inline"> CSharp </label>
+                @Html.CheckBox("Angular", new { @disabled = "disabled"})
+                <label asp-for="Angular" class="checkbox-inline"> Angular </label>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label asp-for="Address">Address</label>
+                <input type="text" class="form-control mb-3" asp-for="Address" placeholder="Enter Address" disabled/>
+                <span asp-validation-for="Address" class=" alert-danger"></span>
+            </div>
+            <div class="form-group col-md-6 mb-3 visually-hidden">
+                <label asp-for="RecordCreatedOn">Created On</label>
+                <input type="label" class="form-control" asp-for="RecordCreatedOn" disabled />
+                <span asp-validation-for="RecordCreatedOn" class=" alert-danger"></span>
+            </div>
+            <div class="form-group col-md-6 mb-3 visually-hidden">
+                <label asp-for="LastModifiedOn">Created On</label>
+                <input type="label" class="form-control" value="@DateTime.Now" asp-for="LastModifiedOn" disabled />
+                <span asp-validation-for="LastModifiedOn" class="alert-danger"></span>
+            </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-lg btn-danger p-2"><i class="bi bi-trash-fill"></i>Delete</button>
+        <a asp-controller="Employee" asp-action="Index" class="btn btn-lg btn-warning p-2">Back To List</a>
+    </form>
+
+</div>
+
+
+@*//for front end validations*@
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
