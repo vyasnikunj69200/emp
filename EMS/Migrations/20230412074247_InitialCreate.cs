@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -24,7 +25,8 @@ namespace EMS.Migrations
                     CSharp = table.Column<bool>(type: "bit", nullable: false),
                     Angular = table.Column<bool>(type: "bit", nullable: false),
                     RecordCreatedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    LastModifiedOn = table.Column<DateTime>(type: "datetime2", nullable: true)
+                    LastModifiedOn = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

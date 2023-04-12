@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EMS.Models
 {
@@ -17,10 +18,11 @@ namespace EMS.Models
         public bool Dotnet { get; set; }
         public bool CSharp { get; set; }
         public bool Angular { get; set; }
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
+        public string? ImagePath { get; set; }
         public DateTime? RecordCreatedOn { get; set; }
         public DateTime? LastModifiedOn { get; set; }
-
-
         public enum DesignationList
         {
             Select = 0,

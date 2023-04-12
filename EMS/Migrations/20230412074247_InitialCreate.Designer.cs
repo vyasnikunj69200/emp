@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EMS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230411142420_InitialCreate")]
+    [Migration("20230412074247_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -51,6 +51,9 @@ namespace EMS.Migrations
 
                     b.Property<string>("Gender")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModifiedOn")

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pN0eMavPOCrjswDChn5xvL+/8E1Vhurgandfmsup1ivXBD8r6ImLpKfZqB1CUn3KNlRN8YZbBZfX/GRRh0c+JA==",
+  "dgSpecHash": "2UPczVyhcLAUF/KEKseq80MLbT3XiRYzi+zmxniNnNg++1+er9DyDU5acDpNb2T9DqpKb9c8J7uUs2PYgnRkrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\EMS.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,9 @@
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
-    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
-    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
-    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.4\\microsoft.entityframeworkcore.design.7.0.4.nupkg.sha512",
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.4\\microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
     "C:\\Users\\Jay.Siraskar\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.4\\microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
