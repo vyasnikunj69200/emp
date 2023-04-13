@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5EdfZ0Tr4dqcAZlmEkcYJ2iw/LPCyOj4/GVqSHmCoSw=",
+  "Hash": "oV2OfXTD7OkoIlmDS1qmvWJmMLAq9OXeRaCyHrszWbs=",
   "Source": "EMS",
   "BasePath": "_content/EMS",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\09e496f8-d02c-4362-a89c-b6c9c5c3706b.png",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "ImageUploads/09e496f8-d02c-4362-a89c-b6c9c5c3706b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageUploads\\09e496f8-d02c-4362-a89c-b6c9c5c3706b.png"
+    },
+    {
       "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\13247340-2ea5-4b4f-923e-de10fad8191a.png",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImageUploads\\3b0164e8-b9c4-4d51-bdce-63aebfc6df71.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\3e709cae-8f6c-48d3-a918-80b93785f8da.png",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "ImageUploads/3e709cae-8f6c-48d3-a918-80b93785f8da.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageUploads\\3e709cae-8f6c-48d3-a918-80b93785f8da.png"
     },
     {
       "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\414a1c8a-74b3-4636-8716-da4ea69fec76.png",
@@ -170,6 +204,23 @@
       "OriginalItemSpec": "wwwroot\\ImageUploads\\5ad2f34e-2188-43e1-8158-d7f6fc398b44.jpg"
     },
     {
+      "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\8f84f5f7-fc7f-498a-aecc-e965316ca6b5.png",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "ImageUploads/8f84f5f7-fc7f-498a-aecc-e965316ca6b5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageUploads\\8f84f5f7-fc7f-498a-aecc-e965316ca6b5.png"
+    },
+    {
       "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\911d45a5-ad27-4821-80e3-b26c8f4357ab.png",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -202,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImageUploads\\96a25fa5-6920-4979-9a9f-12499cc3ab61.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\b1bb0399-9826-4cbf-a8b8-63c1edea518c.png",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "ImageUploads/b1bb0399-9826-4cbf-a8b8-63c1edea518c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageUploads\\b1bb0399-9826-4cbf-a8b8-63c1edea518c.png"
     },
     {
       "Identity": "C:\\Users\\Jay.Siraskar\\OneDrive - Orderline Limited\\Documents\\Learning\\DOTNET\\MVC\\EMS\\EMS\\wwwroot\\ImageUploads\\b36e4f5f-f8d6-485e-8b33-8ee1346c88c7.png",
